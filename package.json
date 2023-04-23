@@ -1,0 +1,30 @@
+{
+  "name": "svg-generator",
+  "version": "1.0.0",
+  "description": "This is a SVG Generator application.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "APereyro"
+  },
+  "keywords": [
+    "SVG",
+    "ndm",
+    "ndm",
+    "i",
+    "generator"
+  ],
+  "author": "Alan Pereyro",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.5",
+    "jest": "^24.9.0"
+  }
+}

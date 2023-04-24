@@ -1,5 +1,5 @@
 {
-  "name": "svg-generator",
+  "name": "svggenerator",
   "version": "1.0.0",
   "description": "This is a SVG Generator application.",
   "main": "index.js",

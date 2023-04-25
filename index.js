@@ -51,12 +51,17 @@ inquirer
     }
     svg.setColor(answers.shapeColor);
 
-    const text = `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">${svg.render()}<text x="150" y="150" font-size="60" text-anchor="middle" fill="${
+    const text = `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">${svg.render()}<text x="50%" y="60%" font-size="60" text-anchor="middle" fill="${
       answers.textColor
-    }">${answers.text}</text>`;
+    }">${answers.text}</text></svg>`;
 
     fs.writeFile(`./Assets/logo.svg`, text, function (err) {
       if (err) throw err;
       console.log("Generated logo.svg");
     });
   });
+
+
+  
+
+
